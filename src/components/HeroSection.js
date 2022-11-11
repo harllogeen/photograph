@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import styled from 'styled-components';
-import HeroImg from '../assets/images/hero.png';
+import HeroImg from '../assets/images/hero.jpg';
 import PrimaryButton from './buttons/PrimaryButton';
 import ParagraphText from './paragraphTexts/ParagraphText';
 import HeroTitle from './titles/HeroTitle';
@@ -26,6 +26,8 @@ const HeroSectionStyles = styled.div`
     flex: 4;
     img {
       object-fit: contain;
+      border-radius: 20px;
+      width: 95%;
     }
   }
   .hero__title {

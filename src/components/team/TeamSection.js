@@ -4,9 +4,9 @@ import ParagraphText from '../paragraphTexts/ParagraphText';
 import SectionTitle from '../titles/SectionTitle';
 import TeamMemberItem from './TeamMemberItem';
 // team member images
-import teamMember1 from '../../assets/images/team1.png';
-import teamMember2 from '../../assets/images/team2.png';
-import teamMember3 from '../../assets/images/team3.png';
+import teamMember1 from '../../assets/images/team4.jpg';
+import teamMember2 from '../../assets/images/team5.jpg';
+import teamMember3 from '../../assets/images/team7.jpg';
 
 const TeamSectionStyles = styled.div`
   padding: 10rem 0;
@@ -71,7 +71,7 @@ function TeamSection() {
             />
             <TeamMemberItem
               img={teamMember3}
-              name="Ayan Bilai"
+              name="Salam Abidemi"
               title="Photographer"
             />
           </div>
